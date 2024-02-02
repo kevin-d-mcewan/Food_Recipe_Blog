@@ -1,0 +1,50 @@
+/* :root is where we place our variables. Used to help with scaleability */
+:root {
+	--clr-dark: #231d21;
+	--clr-light: #b6b7c3;
+	--clr-med: #6f696b;
+	--clr-slate: #7183a0;
+	--clr-link: #73426a;
+
+	--clr-main: #533747;
+	--clr-secondary: #5f506b;
+	--clr-mid: #6a6b83;
+	--clr-lighter: #76949f;
+	--clr-highlight: #86bbbd;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	line-height: 1.5;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: var(--clr-dark);
+}
+
+.title {
+	color: var(--clr-light);
+}
+
+.description {
+	color: var(--clr-slate);
+}
+
+.link {
+	color: var(--clr-link);
+}
+
+.header_1 {
+	color: var(--clr-med);
+}
